@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+
+}
+
+body{
+    background-color:rgb(3, 21, 51);
+}
+
+header{
+    color:rgb(103, 204, 171);
+    font-family:'Jersey 10';
+    font-size:50px;
+    text-align:center;
+
+    margin:3rem;
+   
+}
+
+nav{
+    border-top:1px;
+    border-style:solid;
+    border-color:rgb(103, 204, 171);
+    opacity:20%;
+    
+}
+
+section{
+    text-align:center;
+    font-family:'Jersey 10';
+    font-size:30px;
+
+    margin-top:5rem;
+    
+}
+
+a{
+    color:rgb(103, 204, 171);
+    text-decoration:none;
+    text-align:center;
+
+}
+
+button{
+    color:rgb(103, 204, 171);
+    background-color: rgb(3, 21, 51);
+    text-decoration:none;
+
+    
+    font-family:'Jersey 10';
+    font-size:30px;
+
+    border:1rem;
+    border-radius:25px;
+    border-style:solid;
+    border-color:rgb(3, 21, 51);
+
+    margin-left:3rem;
+
+}
+
+button:hover{
+    scale: 1.2;
+
+    background-color:rgb(13, 36, 76);
+    border-color:rgb(13, 36, 76);
+    box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+}
+
+.LinkedIn{
+    transition: .1s ease;
+}
+.LinkedIn:active{
+    scale: .7;
+}
+
+.GitHub{
+    transition: .1s ease;
+}
+.GitHub:active{
+    scale: .7;
+}
+
+.ItchIo{
+    transition: .1s ease;
+}
+.ItchIo:active{
+    scale: .7;
+}
+
+footer{
+    text-align:center;
+    font-family:'Jersey 10';
+    font-size:30px;
+    color:rgb(103, 204, 171);
+    opacity:50%;
+    margin-top:10rem;
+}

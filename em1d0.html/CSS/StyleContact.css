@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+
+}
+
+body{
+    color: rgb(103, 204, 171), rgb(13, 36, 76), rgb(22, 52, 103), rgb(3, 21, 51), rgb(69, 140, 116);
+    background-color:rgb(3, 21, 51);
+}
+
+header{
+    color:rgb(103, 204, 171);
+    font-family:'Jersey 10';
+    font-size:50px;
+    text-align:center;
+    margin:2rem auto;
+}
+
+nav{
+    margin:1rem auto;
+    margin-bottom:10rem;
+
+    border-top:1px;
+    border-style:solid;
+    border-color:rgb(103, 204, 171);
+    opacity:20%;
+
+}
+
+.MyNumber{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin: 2rem auto;
+    
+    
+    color:rgb(103, 204, 171);
+    font-family:'Jersey 10';
+    font-size:25px;
+
+    .TheNumber{
+        color:rgb(255, 0, 255);
+        text-decoration:none;
+        text-align:center;
+        font-size: 50px;
+
+        transition: .1s ease;
+    }
+    .TheNumber:hover{
+        color:rgb(150, 0, 150);
+        text-decoration:underline;
+    }
+    .TheNumber:active{
+        scale: .9;
+    }
+}
+.MyEmail{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin: 2rem auto;
+    
+    
+    color:rgb(103, 204, 171);
+    font-family:'Jersey 10';
+    font-size:25px;
+
+    .TheEmail{
+        color:rgb(255, 0, 255);
+        text-decoration:none;
+        text-align:center;
+        font-size: 50px;
+
+        transition: .1s ease;
+    }
+    .TheEmail:hover{
+        color:rgb(150, 0, 150);
+        text-decoration:underline;
+    }
+    .TheEmail:active{
+        scale: .9;
+    }
+}
