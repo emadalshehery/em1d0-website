@@ -93,11 +93,166 @@ button:hover{
     scale: .7;
 }
 
-footer{
-    text-align:center;
+.Projects{
+    text-align: center;
     font-family:'Jersey 10';
     font-size:30px;
     color:rgb(103, 204, 171);
-    opacity:50%;
     margin-top:10rem;
+    margin-left: 2rem; 
+    
+
+    
+}
+
+.AI:hover{
+    font-size: 60px;
+
+    background-color:rgb(13, 36, 76);
+    border-color:rgb(13, 36, 76);
+    box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+}
+
+.GamesDev:hover{
+    font-size: 60px;
+
+    background-color:rgb(13, 36, 76);
+    border-color:rgb(13, 36, 76);
+    box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+}
+
+.WebDev:hover{
+    font-size: 60px;
+
+    background-color:rgb(13, 36, 76);
+    border-color:rgb(13, 36, 76);
+    box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+}
+
+.AI{
+    border: 4rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(13, 36, 76);
+    background-color: rgb(13, 36, 76);
+    
+    transition: .1s ease;
+}
+
+.GamesDev{
+    border: 4rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(13, 36, 76);
+    background-color: rgb(13, 36, 76);
+    margin-left: 2rem;
+    
+    transition: .1s ease;
+}
+
+.WebDev{
+    border: 4rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(13, 36, 76);
+    background-color: rgb(13, 36, 76);
+    margin-left: 2rem;
+    
+    transition: .2s ease;
+}
+
+.ProjectsContent{
+    color:rgb(103, 204, 171);
+    font-family:'Jersey 10';
+    font-size:30px;
+    margin-top:30rem;
+}
+
+#AI{
+   margin-bottom: 2rem;
+}
+
+#GamesDev{
+   margin-bottom: 2rem;
+}
+
+#WebDev{
+   margin-bottom: 2rem;
+}
+
+@media (max-width:1023px) {
+    header{
+        font-size:7rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }    
+
+    button{
+        font-size: 3rem;
+        margin-top:1rem;
+    }
+    img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .Projects{
+        font-size: 2rem;
+        margin-top: 10rem;
+        flex-direction: column;
+    }
+    .AI{
+        border: 2rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: rgb(13, 36, 76);
+        background-color: rgb(13, 36, 76);
+        
+        transition: .1s ease;
+    }
+    .AI:active{
+        font-size: 2rem;
+
+        background-color:rgb(13, 36, 76);
+        border-color:rgb(13, 36, 76);
+        box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+    }
+    .GamesDev{
+        border: 2rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: rgb(13, 36, 76);
+        background-color: rgb(13, 36, 76);
+        margin-left: 2rem;
+        
+        transition: .1s ease;
+    }
+    .GamesDev:active{
+        font-size: 2rem;
+
+        background-color:rgb(13, 36, 76);
+        border-color:rgb(13, 36, 76);
+        box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+    }
+    .WebDev{
+        border: 2rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: rgb(13, 36, 76);
+        background-color: rgb(13, 36, 76);
+        margin-left: 2rem;
+        
+        transition: .2s ease;
+    }
+    .WebDev:active{
+        font-size: 2rem;
+
+        background-color:rgb(13, 36, 76);
+        border-color:rgb(13, 36, 76);
+        box-shadow:5px 5px 20px rgb(13, 36, 76), -5px -5px 20px rgb(69, 140, 116);
+    }
+    .ProjectsContent{
+        font-size: 4rem;
+        margin-top: 100rem;
+    }
 }

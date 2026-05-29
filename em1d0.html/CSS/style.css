@@ -143,7 +143,8 @@ nav{
 
 .Info{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    flex-direction: column;
     align-items: center;
     
     
@@ -161,11 +162,10 @@ nav{
     }
 
     .Emad{
-        margin:1rem auto;   
-        text-align:center;
+        margin-top: 2rem;
         color:rgb(103, 204, 171);
         font-family:'Jersey 10';
-        font-size:2rem;
+        font-size:3rem;
         text-decoration:none;
     }
 
@@ -176,7 +176,7 @@ nav{
     .IS{
         color: rgb(69, 140, 116);
         font-family: 'Jersey 10';
-        font-size: 50px;
+        font-size:50px;
         text-decoration: none;
 
         transition: .1s ease;
@@ -193,7 +193,7 @@ nav{
     .AboutEmad {
         text-align: center;
         max-width: 500px;
-        margin-top: 5rem;
+        margin-top: 3rem;
         
         border-radius: 25px;
         border: 25px;
@@ -204,5 +204,124 @@ nav{
         color: rgb(103, 204, 171);
         font-family: 'Jersey 10';
         font-size: 20px;
+    }
+    .Contacts{
+        border: 1rem;
+        border-style: solid;
+        border-radius:25px;
+        border-color:rgb(13, 36, 76);
+        background-color: rgb(13, 36, 76);
+        margin-top: 10rem;
+        max-width: 40rem;
+
+        .MyNumber{
+            display:flex;
+            margin: 2rem auto;
+
+            color:rgb(103, 204, 171);
+            font-family:'Jersey 10';
+            font-size:25px;
+
+            .TheNumber{
+                color:rgb(255, 0, 255);
+                text-decoration:none;
+                text-align:center;
+                font-size: 50px;
+
+                transition: .1s ease;
+            }
+            .TheNumber:hover{
+                color:rgb(150, 0, 150);
+                text-decoration:underline;
+            }
+            .TheNumber:active{
+                scale: .9;
+            }
+        }
+        .MyEmail{
+            display:flex;
+            margin: 2rem auto;
+            
+            color:rgb(103, 204, 171);
+            font-family:'Jersey 10';
+            font-size:25px;
+
+            .TheEmail{
+                color:rgb(255, 0, 255);
+                text-decoration:none;
+                text-align:center;
+                font-size: 50px;
+
+                transition: .1s ease;
+            }
+            .TheEmail:hover{
+                color:rgb(150, 0, 150);
+                text-decoration:underline;
+            }
+            .TheEmail:active{
+                scale: .9;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 1023px) {
+    .Buttons{
+        margin-top: 3rem;
+        .Content{
+            font-size :50px;
+        }
+        .MyWorks{
+            font-size :50px;
+        }
+        .Contact{
+            font-size :50px;
+
+        }
+    }
+    .Em1d0Icon{
+        width:8rem;
+        height:8rem;
+        margin-top: 2rem;
+        margin-right:2rem;
+        margin-bottom: 2rem;
+    }
+
+    .Info{   
+        .MyImage{
+            width: 30rem;
+            height:40rem;
+            margin-top: 10rem;
+        }
+        .Emad{
+            font-size:6rem;
+        }
+        .Align{
+            text-align: center;
+        }
+        .IS{
+            font-size: 5rem;
+        }
+        .AboutEmad {
+            max-width: 50rem;
+            font-size: 3rem;
+            margin-left: 2.5rem
+        }
+    }
+        
+    .MyNumber{
+        font-size:2rem;
+        .TheNumber{
+            font-size: 4rem;
+        }
+    }
+    .MyEmail{
+        font-size:2rem;
+        margin-top: 8rem;
+        .TheEmail{
+            font-size: 4rem;
+        }
     }
 }
